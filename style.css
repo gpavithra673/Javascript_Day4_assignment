@@ -1,0 +1,31 @@
+
+*{
+  font-family: "Playwrite PT", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.two_field{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #FFE9D0;
+    height: 690px;
+}
+.main_area{
+    transform: translateY(210px);
+    background-image: linear-gradient(to right,rgb(255, 233, 208),rgb(255, 254, 211),rgb(187, 233, 255),rgb(177, 175, 255));
+    border: 1px solid black;
+    height: 200px;
+    border-radius: 20px;
+    padding: 20px;
+}
+.task{
+    border: 1px solid black;
+    width: 770px;
+    height: 500px;
+    background-color: rgb(152, 220, 252);
+    border-radius: 20px;
+    padding: 20px;
+    transform: translateY(50px);
+}
